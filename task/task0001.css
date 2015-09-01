@@ -1,0 +1,180 @@
+*{padding: 0;margin:0;}
+
+#div1{
+	background: red;
+	width: 960px;
+	margin: 0 auto;
+	height: 30px;
+}
+#div2{
+	text-align: center;
+}
+#div2_1{
+	background: pink;
+	width: 960px;
+	display: inline-block;;
+	height: 30px;
+}
+
+#mid{
+	height: 50px;
+	border-right: 1px solid blue;
+	border-left: 1px solid blue;
+}
+#top{
+	display: block;
+}
+#top div{
+	display: block;
+	height: 1px;
+	
+	overflow: hidden;
+}
+#t1{
+	background: green;
+	margin: 0 3px;
+}
+#t2{
+	
+	margin: 0 2px;
+	border-right: 1px solid pink;
+	border-left: 1px solid pink;
+
+}
+#t3{
+	margin: 0 1px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+
+
+}
+#t4{
+	border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  margin: 0 1px;
+  height: 1px;
+}
+
+#id1{
+	margin-top: 20px;
+}
+
+
+#a1{
+	width: 20%;
+	height: 20px;
+	background: pink;
+	float: left;
+}
+#b1{
+	height: 20px;
+	width: auto;
+	background: blue;
+
+}
+#c1{
+	height: 20px;
+	width: auto;
+	background: red;
+}
+
+#id2{
+	position: relative;
+	margin-top: 20px;
+}
+#a2{width: 20%;
+	height: 20px;
+	background: purple;
+	position: absolute;
+}
+#b2{
+	height: 20px;
+	width: auto;
+	background: yellow;
+
+}
+#c2{
+	height: 20px;
+	width: auto;
+	background: black;
+}
+
+
+
+
+
+#glen{margin:20px 0;}
+
+
+
+#glen1{
+	width: 40px;
+	height: 40px;
+	background: pink;
+	float: left;
+
+}
+
+
+
+
+
+#glen2{
+	height: 40px;
+	margin-right: 40px;
+	
+	background: purple;
+}
+
+#glen3{
+	   width:40px;
+	   height:40px;
+	   background: black;
+	   float: right;
+}
+
+#gleny{padding: 0 230px 0 190px;}
+#g1{
+	float: left;
+	width: 100%;
+	height: 40px;
+	background: green;
+}
+#g2{
+	float: left;
+	width: 190px;
+	height: 40px;
+	background: yellow;
+	margin-left: -100%;
+	left: -190px;
+	position: relative;;
+
+}
+#g3{
+	float: left;
+  width: 230px;
+  height: 40px;
+  margin-left: -230px;
+  position: relative;
+  right: -230px;
+  background: blue;
+}
+
+
+#ye{
+	height: 500px;
+	width: 250px;
+	background: red;
+	overflow: hidden;;
+	
+}
+
+#ye div{
+	width:100px;
+	height: 100px;
+	background:blue;
+	float:left;
+	margin: 20px;
+	
+
+}
