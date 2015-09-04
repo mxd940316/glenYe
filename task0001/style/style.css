@@ -1,0 +1,251 @@
+* {
+	padding: 0;
+	margin:0;
+}
+
+
+header {
+	position: relative;
+	width: 100%;
+	background: #66CCCC;
+	height: 80px;
+}
+
+.title {
+	position: relative;
+	width: 980px;
+	height: 80px;
+	margin:0 auto;
+}
+
+.title h1 a {
+	float: left;
+	margin-top:40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-nav {
+	float: right;
+	height: 80px;
+}
+
+.header-nav li {
+	float: left;
+	list-style: none;
+	margin-left: 28px;
+	height: 30px;
+	padding-top: 57px;
+
+}
+
+.header-nav li a {
+	text-decoration: none;
+	color: #fff;
+	font: 14px SimSun;
+}
+
+.icon-github {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	height: 35px;
+	width: 30px;
+	text-indent:-9999em;
+	background: url(../img/icon-github.png) no-repeat;
+	
+}
+
+
+.main img {
+	width: 100%;
+}
+
+.banner {
+	position: relative;
+	width: 980px;
+	margin:0 auto;
+}
+
+.banner-text {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+	color: #fff;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.4) 75%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.4)), color-stop(75%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.4) 75%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.4) 75%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.4) 75%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.4) 75%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    padding: 10px 10px 30px;
+
+}
+
+.banner-text h1 {
+	font: 14px ;
+	padding:10px 10px 10px 10px;
+	text-align: right;
+
+
+}
+
+.banner-text p {
+	font: 12px;
+	line-height: 150%;
+	padding: 0 10px 27px 10px;
+	
+}
+
+
+.content {
+	width: 100%;
+	background: #ccf;
+	height: 480px;
+}
+
+.content-wrap {
+	position: relative;
+	width: 980px;
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+.content-wrap p {
+	line-height: 150%;
+	text-indent: 2em;
+}
+
+.content-wrap img {
+	width: 300px;
+	line-height: 180px;
+	margin: 10px 10px 15px 10px;	
+}
+.content-wrap div {
+	float: left;
+	width: 320px;
+	height: auto;
+	margin: 10px 0 -10000px;
+	background: #fff;
+	padding-bottom: 10000px;
+}
+
+#div1 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.information {
+	height: 520px;
+}
+
+.information {
+	text-align: center
+}
+.information img {
+	
+	width: 160px;
+	height:160px;
+	border-radius: 50%;
+	margin: -30px 0 50px;
+	
+}
+
+.information h1 {
+	
+	font:20px Century Gothic #fff;
+	margin-bottom: 40px;
+	
+
+}
+
+.information p {
+	text-indent: 2em;
+	width: 600px;
+	margin: 0 auto;
+	font: 14px #fff;
+	line-height: 170%;
+	text-align: left;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	background: #000;
+	font-size: 12px ;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+.footer-nav ul {
+	margin: 0 auto;
+	padding: 12px 0;
+	border-bottom: 1px solid #333;
+
+}
+
+.footer-nav li {
+	display: inline;
+	margin-left: 17px;
+	
+}
+
+.footer-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.link {
+	width: 980px;
+    height: 360px;
+	margin: 0 auto;
+
+}
+
+.link dl {
+	float: left;
+	width: 196px;
+	
+}
+
+.link dt {
+	margin: 42px 0 30px;
+	color: #666;
+}
+
+.link dd a {
+	line-height: 170%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.link dd a:hover {
+	text-decoration: underline;	
+}
+
+.copyright {
+	width: 100%;
+    text-align: center;  
+}
+.copyright p {
+	color: #fff;
+	padding-bottom: 20px;
+	
+}
+
+.copyright a { 
+	overflow:hidden;
+	display:block;
+	height: 34px;
+	text-decoration: none;
+	text-indent: -9999em;
+	background: url(../img/icon-github.png) no-repeat center;
+		
+}
+
